@@ -1,0 +1,37 @@
+{
+  "name": "hexlet",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "My First Project",
+  "main": "src/index.js",
+  "bin": {
+    "brain-games": "./bin/brain-games.js"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abvgzxn/hexlet-hello-world.git"
+  },
+  "keywords": [
+    "hello-world",
+    "tutorial",
+    "learning"
+  ],
+  "author": "Yoshie <tryonce499@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abvgzxn/hexlet-hello-world/issues"
+  },
+  "homepage": "https://github.com/abvgzxn/hexlet-hello-world#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
