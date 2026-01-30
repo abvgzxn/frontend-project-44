@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "My First Project",
   "main": "src/index.js",
@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/abvgzxn/hexlet-hello-world#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "prettier": "^3.8.1"
