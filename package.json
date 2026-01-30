@@ -1,11 +1,11 @@
 {
-  "name": "hexlet",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
   "description": "My First Project",
   "main": "src/index.js",
   "bin": {
-    "brain-games": "./bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "format": "prettier --write .",
