@@ -33,6 +33,8 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.7.1",
+    "eslint": "^9.39.2",
     "prettier": "^3.8.1"
   }
 }
