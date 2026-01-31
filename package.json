@@ -1,12 +1,13 @@
 {
   "name": "@hexlet/code",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "description": "My First Project",
   "main": "src/index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "scripts": {
     "format": "prettier --write .",
