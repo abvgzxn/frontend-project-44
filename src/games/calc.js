@@ -15,14 +15,12 @@ const calculate = (num1, num2, operator) => {
 };
 
 const generateRound = () => {
-  const randomBuffer = new Uint32Array(3);
-  crypto.getRandomValues(randomBuffer);
-
-  const num1 = randomBuffer[0] % 100;  // Число от 0 до 99
-  const num2 = randomBuffer[1] % 100;  // Число от 0 до 99
+  const num1 = crypto.randomInt(0, 100);
+  const num2 = crypto.randomInt(0, 100);
 
   const operators = ['+', '-', '*'];
-  const operator = operators[randomBuffer[2] % operators.length];
+  const operatorIndex = crypto.randomInt(0, operators.length);
+  const operator = operators[operatorIndex];
 
   const question = `${num1} ${operator} ${num2}`;
   const correctAnswer = String(calculate(num1, num2, operator));
@@ -34,4 +32,5 @@ const playCalc = () => {
   const description = 'What is the result of the expression?';
   runGame(description, generateRound);
 };
+
 export default playCalc;
