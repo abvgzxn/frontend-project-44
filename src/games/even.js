@@ -1,9 +1,14 @@
 import runGame from '../index.js';
+import crypto from 'crypto';
 
 const isEven = (number) => number % 2 === 0;
 
 const generateRound = () => {
-  const number = Math.floor(Math.random() * 100);
+  // Используем crypto для безопасных случайных чисел
+  const randomBuffer = new Uint32Array(1);
+  crypto.getRandomValues(randomBuffer);
+
+  const number = randomBuffer[0] % 100;
   const question = String(number);
   const correctAnswer = isEven(number) ? 'yes' : 'no';
 
