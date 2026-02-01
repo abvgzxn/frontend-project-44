@@ -13,3 +13,7 @@ https://asciinema.org/a/aay0V989gPTXXd3t
 
 ### 3rd game: GCD
 https://asciinema.org/a/18FIXmGI5Qg9MjLm
+
+### 4th game: Progression
+https://asciinema.org/a/2I9lBQDq7fzYRXj8
+
