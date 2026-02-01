@@ -2,7 +2,7 @@
 import runGame from '../index.js'
 import crypto from 'crypto'
 
-const isEven = (number) => number % 2 === 0
+const isEven = number => number % 2 === 0
 
 const generateRound = () => {
   const number = crypto.randomInt(0, 100)
