@@ -4,7 +4,7 @@
 ### SonarCloud:
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=abvgzxn_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=abvgzxn_frontend-project-44)
 
-### Brain Games
+### Brain Games:
 ### 1st game: Even or not
 https://asciinema.org/a/xPm3jnyfmR16iey7
 
@@ -17,3 +17,5 @@ https://asciinema.org/a/18FIXmGI5Qg9MjLm
 ### 4th game: Progression
 https://asciinema.org/a/2I9lBQDq7fzYRXj8
 
+### 5th game: Prime number
+https://asciinema.org/a/wdb6m0lU7Ip39j46
