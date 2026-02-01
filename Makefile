@@ -8,5 +8,5 @@ publish:
 	npm publish --dry-run
 
 lint:
-	npx eslint .
+	npx eslint --no-config-lookup --config eslint.config.js .
 
