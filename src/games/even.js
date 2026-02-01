@@ -1,3 +1,4 @@
+'EOF'
 import runGame from '../index.js'
 import crypto from 'crypto'
 
