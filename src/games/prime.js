@@ -30,4 +30,3 @@ const playPrime = () => {
 }
 
 export default playPrime
-

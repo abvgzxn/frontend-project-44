@@ -4,7 +4,6 @@ import crypto from 'crypto'
 const isEven = (number) => number % 2 === 0
 
 const generateRound = () => {
-  // Используем crypto.randomInt
   const number = crypto.randomInt(0, 100)
   const question = String(number)
   const correctAnswer = isEven(number) ? 'yes' : 'no'
