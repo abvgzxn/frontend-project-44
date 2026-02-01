@@ -1,7 +1,7 @@
 import runGame from '../index.js'
 import crypto from 'crypto'
 
-const isPrime = number => {
+const isPrime = (number) => {
   if (number < 2) {
     return false
   }

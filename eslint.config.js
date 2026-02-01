@@ -21,7 +21,7 @@ export default [
       '@stylistic/space-before-function-paren': ['error', 'always'],
       '@stylistic/space-before-blocks': 'error',
       '@stylistic/no-multiple-empty-lines': ['error', { max: 1 }],
-      '@stylistic/arrow-parens': ['error', 'as-needed'], // ← ВАЖНО: 'as-needed'
+      '@stylistic/arrow-parens': ['error', 'always'], 
       '@stylistic/no-multi-spaces': 'error',
     },
   },
